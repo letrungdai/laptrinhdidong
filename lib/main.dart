@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'thuchanh2.dart';
 import 'thuchanh3.dart';
+import 'thuchanh2_email.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       //   home: const PracticeScreen(),
       home: const Practice3Screen(), // Đây là bài 3
+      //  home: const Practice2EmailScreen(),
     );
   }
 }
