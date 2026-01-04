@@ -55,6 +55,7 @@ flutter:
 
   # Thêm phần này vào:
   assets:
+    - assets/images/
     - assets/banner.jpg
     - assets/logo.png
 
