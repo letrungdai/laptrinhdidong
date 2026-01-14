@@ -44,7 +44,7 @@ List<OnboardingContent> contents = [
     title: "Easy Time Management",
     description:
         "With management based on priority and daily tasks, it will give you convenience in managing and determining the tasks that must be done first.",
-    image: "assets/images/img1.png", // Thay bằng ảnh thật của bạn
+    image: "assets/images/img1.png",
   ),
   OnboardingContent(
     title: "Increase Work Effectiveness",
@@ -145,7 +145,6 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               alignment: Alignment.topRight,
               child: TextButton(
                 onPressed: () {
-                  // Logic mới: Chuyển sang trang (slide) tiếp theo
                   _controller.nextPage(
                     duration: const Duration(milliseconds: 300),
                     curve: Curves.easeIn,
